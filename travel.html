@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTS-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Travel Reservation</title>
+
+    </head>
+    <body>
+        <!--Full name-->
+        <div class="container">
+            <form name="travel" action="">
+                <div class="form-item">
+                    <label for="name">Full Name*:</label>
+                    <input id="name" type="text" required placeholder="First Name">
+                </div>
+            </form>
+        </div>
+        <!--provide Email Id-->
+        <div class="container">
+            <form name="travel" action="">
+                <div class="form-item">
+                    <label for="name">Email Id*:</label>
+                    <input id="name" type="text" required placeholder="EMAIL_ADDRESS">
+                </div>
+            </form>
+        </div>
+        <!--select package-->
+        <div class="container">
+            <form name="travel" action="">
+                <div class="form-item">
+                    <label for="name">Select tour package*:</label>
+                    <select name = "dropdown">
+                        <option value = "select" selected>Select</option>
+                        <option value = "Goa">Goa</option>
+                        <option value = "manali">Manali</option>
+                        <option value = "varkala">Varkala</option>
+                     </select>
+                </div>
+            </form>
+        </div>
+        <!--arrival date-->
+        <div class="container">
+            <form name="travel" action="">
+                <div class="form-item">
+                    <label for="date">Arrival date*:</label>
+                    <input id="date" type="date" >
+                </div>
+            </form>
+        </div>
+        <!--Number of persons-->
+        <div class="container">
+            <form name="travel" action="">
+                <div class="form-item">
+                    <label for="no_of_persons">Number of persons*:</label>
+                    <input id="no_of_persons" type="text" required placeholder="UNKNOWN_TYPE">
+                </div>
+            </form>
+        </div>
+        <!--service availability-->
+        <div class="container">
+            <form name="travel" action="">
+                <div class="form-item">
+                    <label for="">What would you want to avail?*:</label><br>
+                    <input type="checkbox" name="Boarding"/>Boarding<br>
+                    <input type="checkbox" name="Fooding"/>Fooding<br>
+                    <input type="checkbox" name="Sight seeing"/>Sight seeing<br>
+
+                </div>
+            </form>
+        </div>
+        <div class="container">
+            <form name="travel" action="">
+                <div class="form-item">
+                    <label for="coupen">Discount coupen code:</label><br>
+                    <input id="coupen" type="text" name="coupen_code" required placeholder="UNKNOWN_TYPE"/>
+                </div>
+            </form>
+        </div>
+        <div class="container">
+            <form name="travel" action="">
+                <div class="form-item">
+                    <label for="agreement">Do you agree*:</label><br>
+                    <input id="agreement" type="radio" name="agree"/>I agree
+                    <input id="agreement" type="radio" name="disagree"/>I disagree
+                </div>
+            </form>
+        </div>
+        <div class="container">
+            <form name="travel" action="">
+                <div class="form-item"><br>
+                    <input id="Complete Reservation" type="submit" name="Complete Reservation" value = "Complete Reservation"/>
+                </div>
+            </form>
+        </div>
+    </body>
+
+</html>
